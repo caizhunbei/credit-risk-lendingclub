@@ -1,0 +1,15 @@
+# data folders (large)
+data_raw/
+data/
+
+# large artifacts
+*.parquet
+*.csv
+
+# specific outputs (optional)
+reports/el_scored.parquet
+reports/top_risk_loans.csv
+
+# python cache / env
+__pycache__/
+.venv/
